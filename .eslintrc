@@ -1,0 +1,67 @@
+{
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-console": [
+      "error"
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "valid-jsdoc": [
+      "error",
+      {
+        "requireParamDescription": false,
+        "requireReturnDescription": false,
+        "prefer": {
+          "return": "returns"
+        }
+      }
+    ],
+    "strict": [
+      "error"
+    ],
+    "comma-style": [
+      "error",
+      "last"
+    ]
+  },
+  "env": {
+    "node": true,
+    "browser": true,
+    "mocha": true,
+    "es6": true,
+    "jquery": true,
+    "worker": true
+  },
+  "globals": {
+    "oboe": true,
+    "Clipboard": true
+  },
+  "extends": "eslint:recommended"
+}
+
