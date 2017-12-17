@@ -53,7 +53,12 @@
     "comma-style": [
       "error",
       "last"
-    ]
+    ],
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    "no-duplicate-imports": "error",
+    "prefer-template": "error",
+    "new-cap": "error"
   },
   "env": {
     "node": true,
