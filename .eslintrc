@@ -1,4 +1,5 @@
 {
+  "extends": "eslint:recommended",
   "rules": {
     "indent": [
       "error",
@@ -60,7 +61,6 @@
     "es6": true,
     "jquery": true,
     "worker": true
-  },
-  "extends": "eslint:recommended"
+  }
 }
 
