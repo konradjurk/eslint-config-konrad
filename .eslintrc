@@ -53,7 +53,7 @@
     "new-cap": "error",
     "complexity": [
       "error",
-      20
+      10
     ],
     // JSDoc
     "valid-jsdoc": [
