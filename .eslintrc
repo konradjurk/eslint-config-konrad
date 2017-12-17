@@ -58,7 +58,11 @@
     "no-trailing-spaces": "error",
     "no-duplicate-imports": "error",
     "prefer-template": "error",
-    "new-cap": "error"
+    "new-cap": "error",
+    "complexity": [
+      "error",
+      20
+    ]
   },
   "env": {
     "node": true,
