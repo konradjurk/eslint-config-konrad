@@ -6,7 +6,10 @@
     ],
     "quotes": [
       2,
-      "single"
+      "single",
+      {
+        "avoidEscape": true
+      }
     ],
     "linebreak-style": [
       2,
@@ -57,10 +60,6 @@
     "es6": true,
     "jquery": true,
     "worker": true
-  },
-  "globals": {
-    "oboe": true,
-    "Clipboard": true
   },
   "extends": "eslint:recommended"
 }
