@@ -1,6 +1,7 @@
 {
   "extends": "eslint:recommended",
   "rules": {
+    // Style
     "indent": [
       "error",
       2
@@ -20,6 +21,16 @@
       2,
       "always"
     ],
+    "comma-style": [
+      "error",
+      "last"
+    ],
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    // Code
+    "strict": [
+      "error"
+    ],
     "no-console": [
       "error"
     ],
@@ -37,6 +48,14 @@
         "allowEmptyCatch": true
       }
     ],
+    "no-duplicate-imports": "error",
+    "prefer-template": "error",
+    "new-cap": "error",
+    "complexity": [
+      "error",
+      20
+    ],
+    // JSDoc
     "valid-jsdoc": [
       "error",
       {
@@ -46,22 +65,6 @@
           "return": "returns"
         }
       }
-    ],
-    "strict": [
-      "error"
-    ],
-    "comma-style": [
-      "error",
-      "last"
-    ],
-    "no-multiple-empty-lines": "error",
-    "no-trailing-spaces": "error",
-    "no-duplicate-imports": "error",
-    "prefer-template": "error",
-    "new-cap": "error",
-    "complexity": [
-      "error",
-      20
     ]
   },
   "env": {
@@ -73,4 +76,3 @@
     "worker": true
   }
 }
-
