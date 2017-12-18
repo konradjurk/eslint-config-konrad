@@ -33,9 +33,6 @@ module.exports = {
       "error",
       "safe"
     ],
-    "no-console": [
-      "error"
-    ],
     "prefer-const": "error",
     "no-unused-vars": [
       "error",
