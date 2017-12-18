@@ -27,6 +27,7 @@ module.exports = {
     ],
     "no-multiple-empty-lines": "error",
     "no-trailing-spaces": "error",
+
     // Code
     "strict": [
       "error"
@@ -55,6 +56,7 @@ module.exports = {
       "error",
       10
     ],
+    
     // JSDoc
     "valid-jsdoc": [
       "error",
