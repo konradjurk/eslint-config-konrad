@@ -18,3 +18,13 @@ Set of Javascript rules that I consider useful to remain a good Javascript code 
       "rules": {}
      }
     ```
+
+## Rules
+
+### Visual
+
+#### `indent [error, 2]`
+Enforce consistent indentation of 2 spaces. ([Docs](https://eslint.org/docs/rules/indent))
+
+#### `quotes [2,"single",{"avoidEscape": true}]`
+Enforce the consistent use of single quotes, except when a different type avoids escaping. ([Docs](https://eslint.org/docs/rules/quotes))
