@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-konrad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of ESLint Rules",
   "main": "index.js",
   "repository": "git@github.com:konradjurk/eslint-config-konrad.git",
