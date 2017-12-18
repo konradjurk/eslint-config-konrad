@@ -30,7 +30,8 @@ module.exports = {
 
     // Code
     "strict": [
-      "error"
+      "error",
+      "safe"
     ],
     "no-console": [
       "error"
@@ -56,7 +57,7 @@ module.exports = {
       "error",
       10
     ],
-    
+
     // JSDoc
     "valid-jsdoc": [
       "error",
