@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-konrad",
+  "version": "1.0.0",
+  "description": "Collection of ESLint Rules",
+  "main": "index.js",
+  "repository": "git@github.com:konradjurk/eslint-config-konrad.git",
+  "author": "Konrad Jurk <konrad.jurk@acrolinx.com>",
+  "license": "MIT"
+}
