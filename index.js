@@ -1,7 +1,34 @@
 module.exports = {
   "extends": "eslint:recommended",
   "rules": {
-    // Style
+    // Code
+    "complexity": [
+      "error",
+      10
+    ],
+    "prefer-const": "error",
+    "strict": [
+      "error",
+      "safe"
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "none"
+      }
+    ],
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "no-duplicate-imports": "error",
+    "prefer-template": "error",
+    "new-cap": "error",
+
+    // Visual
     "indent": [
       "error",
       2
@@ -27,33 +54,6 @@ module.exports = {
     ],
     "no-multiple-empty-lines": "error",
     "no-trailing-spaces": "error",
-
-    // Code
-    "strict": [
-      "error",
-      "safe"
-    ],
-    "prefer-const": "error",
-    "no-unused-vars": [
-      "error",
-      {
-        "vars": "local",
-        "args": "none"
-      }
-    ],
-    "no-empty": [
-      "error",
-      {
-        "allowEmptyCatch": true
-      }
-    ],
-    "no-duplicate-imports": "error",
-    "prefer-template": "error",
-    "new-cap": "error",
-    "complexity": [
-      "error",
-      10
-    ],
 
     // JSDoc
     "valid-jsdoc": [
