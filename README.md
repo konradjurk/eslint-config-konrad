@@ -21,6 +21,8 @@ Set of Javascript rules that I consider useful to remain a good Javascript code 
 
 ## Rules
 
+Inherits from [eslint:recommended](https://eslint.org/docs/rules/).
+
 ### Code
 
 #### `complexity ["error",10]`
